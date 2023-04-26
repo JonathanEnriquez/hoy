@@ -1,0 +1,137 @@
+@import url();
+body{
+   font-size: 13px;
+   text-align: justify;
+
+}
+body#principal{
+    background-image:url(./pexels-photo-1287142.webp);
+   background-size: 200px,200px; 
+
+}
+div.centro{
+    padding-left: 10%;
+padding-right: 20%;
+}
+div.izquierda{
+    padding-right: 90%;
+position: fixed;
+}
+p#notaizquierda{
+color: black;
+font-size: small;
+ padding: 10px;
+border-style: ridge;
+font-weight: bold;
+background: lightgreen;
+border-radius: 10px;
+
+}
+div.derecha{
+    padding-left: 80%;
+position: fixed;
+}
+aside#nota1{
+padding: 5px; 
+background-color: rgb(202, 138, 41);
+}
+section,
+header{
+    background: bisque;
+    padding: 12px;
+}
+h1{
+    font-size: xx-large;
+    color: aquamarine;
+    background: blue;
+    text-align: center;
+}
+h2{
+    color: blue;
+    border-bottom-color:darkblue;
+    border-bottom-style:solid;
+
+}
+h3{
+    color: darkblue;
+}
+em.termino{
+    color: darkblue;
+}
+em.propiedad{
+    color: darkblue;
+    font-weight: bold;
+    font-style: normal;
+}
+em.valor{
+    color: red;
+    font-weight: bold;
+    font-style: normal;
+}
+aside#nota2{
+    padding: 5px;
+    background-color: lightblue;
+    border-color: blue;
+    border-style: solid;
+    border-width: thin;
+}
+p.normal:hover,
+p.inicial:hover,
+li.itemnivel1:hover,
+header:hover,
+aside:hover
+{
+font-size: large;
+}
+p.inicial::first-letter{
+    font-size: large;
+    font-family: cursive;
+
+}
+p:hover,
+li:hover,
+header:hover{
+    background-color: azure;
+}
+img#pFlotante{
+    float: inline-end;
+}
+img#pAbsoluto{
+    position: absolute;
+}
+.cajapadre{
+    margin: 20px;
+width: 500px;
+height: 500px;
+background-color: black;
+position: absolute;
+}
+img#pAbsoluto{
+    position: absolute;
+top: 20px;
+right: 20px;
+bottom: 0;
+right: 0;
+
+}
+img#pRelativo{}
+
+
+img#pFijo{
+    position: fixed;
+}
+img#Centrado{
+position: center;
+}
+img#pPaginado{
+position: page;
+top: 200px;
+left: 200px;
+top: 200px;
+
+}
+
+
+
+
+

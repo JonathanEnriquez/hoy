@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.contenedor{
+    width: 70%;
+    margin: 15px auto;
+
+
+}
+body{
+    background:#7c9cca;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+header{
+    background: rgb(105, 98, 85);
+}
+header nav{
+    width: 100%;
+    overflow: hidden;
+}
+header nav ul li{
+    float: left;
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding: 15px 20px;
+}
+header nav ul li a:hover{
+background: #000;
+color:#960d0d;
+}
+  
+
+.main{
+    width: 70%;
+background: #c74646;
+float: left;
+}
+.main.imagen{
+width: 100%;
+}
+main.imagen img{
+width: 100%;
+vertical-align: top;
+
+}
+.main.publicacion{
+padding: 45px;
+}
+.main.publicacion article h2{
+  margin-bottom: 20px;
+  color: #5d5d5d;
+    }
+       
+.main.publicacion article h2 p{
+ margin-bottom: 15px;
+ line-height: 25px;
+    }
+    aside{
+        width: 300px;
+        background: #161f26;
+        padding: 20px;
+        color: #fff;
+        float: left;
+    }
+    footer{
+        background: #000;
+    }
+    aside .widget{
+margin-bottom: 20px;
+
+    }
+    aside.widget.titulo{
+color: rgb(245, 167, 22);
+border-bottom: 2px solid rgb(230, 169, 56);
+margin-bottom: 15px;
+}
+aside.widget ul li{
+    border-bottom: 2px solid rgba(255,255,255, 255);
+    padding: 12px 0;
+}
+aside.widget ul li a{
+color: #fff;
+text-decoration: none;
+}
+aside.widget ul li a:hover{
+color: #5d5d5d;
+}
+aside .widget p{
+line-height: 25px;
+}
+footer{
+    width: 70%;
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+overflow: hidden;
+}
+
+@media (max-width:750px){
+    body{
+        background-color:#000;
+    }
+    header{
+        background: #161f26;
+    }
+    header nav ul li a{
+        color: #fff;
+    }
+    header nav ul li a:hover{
+        background-color: #fff;
+        color: #000 ;
+    }
+    header nav ul li{
+        float: right;
+    }
+    .main .publicacion article h2{
+        color: aliceblue;
+        border-bottom: 1px solid #fff;
+    }
+    .main{
+        width: 100%;
+        background: #161f26;
+        color: white;
+    }
+    aside{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+}
+
+
+
+
+    
+ 

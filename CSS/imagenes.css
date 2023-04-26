@@ -1,0 +1,17 @@
+img{
+border: 25px;
+text-align: center;
+}
+body{
+background: gray;
+
+}
+img{
+    opacity: 0.5;
+    border: 20px black;
+}
+img:hover{
+   opacity: 1; 
+width: 250px;
+
+}

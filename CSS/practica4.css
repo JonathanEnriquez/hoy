@@ -1,0 +1,14 @@
+.caja{
+    background: #4b05bb;
+    width: 250px;
+    margin: 20px;
+    padding: 20px 10px 5px 0 red;
+    border: 10px solid rgb(233, 157, 15);
+    
+}
+div{
+border-radius: 7px;
+}
+h2{
+text-shadow: 0 0 6px blue;
+}

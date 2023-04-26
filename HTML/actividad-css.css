@@ -1,0 +1,40 @@
+div{
+    background-color: darkblue;
+}
+*{/*selector universal*/
+margin: 20px;
+}
+h3{
+   background-color: blue;
+}
+/* Selector descendente*/
+div p{
+    color: aliceblue;
+}
+div p a{
+    color: blueviolet;
+}
+.contenedor{
+background:rgb(6, 214, 162);
+}
+#parrafo{
+    font-size: 24px;
+}
+
+/*  Selectores avanzados
+Para input principalmente son utilizados en los formularios
+*/
+
+input[type="text"]:hover{
+    background: black;
+}
+input[type="text"]{
+background: rgb(184, 190, 190);
+text-decoration: underline;
+}
+/* Selecciona un elemento
+un elemento que esta directamente en la etiqueta
+*/
+div>p{
+font-size: 24px;
+}

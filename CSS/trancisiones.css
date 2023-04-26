@@ -1,0 +1,31 @@
+div{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    transition: 4s;
+    margin-top: 10px;
+}
+
+/* especifica un efecto en la transicion con la misma velocidad de principio a fin*/
+.div1{
+transition-timing-function: linear;
+}
+/* inicio lento, luego rapido y el final lento (Predeterminado)*/
+.div2{
+    transition-timing-function: ease;
+}
+/* lento pero solo al principio*/
+/* Lento pero solo al final*/
+.div3{
+    transition-timing-function: ease-in;
+    background: rosybrown;
+}
+.div4{
+    background: red;
+    transition: witdh 2s, height 2s, transform 4s;
+}
+div:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotateZ(-90deg );
+}

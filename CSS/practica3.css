@@ -1,0 +1,9 @@
+form{
+    box-sizing: border-box;
+    background: rgb(129, 43, 43);
+    position: relative;
+    padding: 1em;
+    width: 440px;
+    height: 300px;
+    border-color: blueviolet;
+}

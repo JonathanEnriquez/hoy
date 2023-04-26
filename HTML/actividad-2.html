@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Cuestionario de evaluacion de servicios</h1>
+   <div style="border: black solid 1px;">
+    <fieldset><legend>Datos generales</legend>
+    <form>
+    <label for="area">Clave de su area(Comenzando con A):
+    <input type="text" id="area">
+    </label>
+    <br>
+    <label for="si">Nombre del tecnico evaluado
+        <input type="text" id="si">
+        </label>
+        <br>
+        
+        <label for="ser">Servicio a evaluar</label>
+            <select name="ser" id="ser">
+                <option value="">----</option>
+                <option value="Coppel">Coppel</option>
+                <option value="Agua">Agua</option>
+                <option value="Gas">Gas</option>
+            </select>
+            <br>
+            <label for="fecha">Fecha en que se proporciono el servicio
+                <input id="fecha" type="date"> 
+             </label>
+
+
+
+
+    </form>
+
+    
+    
+    </fieldset>
+
+   
+   </div> 
+
+
+   <div style="border: black solid 1px;">
+    <fieldset>
+        <legend>Satisfaccion</legend>
+        <form>
+            <label for="seri">Satisfaccion genral con el servicio</label>
+            <select name="seri" id="seri">
+                <option value="">----</option>
+                <option value="bueno">bueno</option>
+                <option value="malo">malo</option>
+                <option value="regular">regular</option>
+            </select>
+<br>
+            <label for="seris">Su problema se resolvio</label>
+            <select name="seris" id="seris">
+                <option value="">----</option>
+                <option value="Si">Si</option>
+                <option value="No">No</option>
+                
+
+            </select>
+            <br>
+            <label for="s">Con que oportunidad se resolvio su problema</label>
+            <select name="s" id="s">
+                <option value="">----</option>
+                <option value="Primero">Primero<option>
+                <option value="Segundo">Segundo</option>
+                <option value="Tercero">Tercero</option>
+            </select>
+<br>
+<p>Comentarios generales</p>
+<textarea></textarea>
+
+        </form>
+    </fieldset>
+
+   </div>
+   
+</body>
+</html>

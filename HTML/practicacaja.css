@@ -1,0 +1,17 @@
+body{
+    font-family: 'Segoe UI';
+    font-size: 12px;
+     /*
+font-size: 1em;
+font-size: rem; relativo al tamaño de la fuente 
+font-size: 25%;*/
+padding-left: 10%;
+text-align: justify;
+padding-right: 10%;
+
+}
+h1{
+    text-align: center;
+    background-color: blueviolet;
+    color: aliceblue;
+}

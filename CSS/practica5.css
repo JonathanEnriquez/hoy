@@ -1,0 +1,58 @@
+.titulo{
+    text-shadow: 0 0 5px rgb(171, 16, 202);
+    padding-left: none;
+    margin-right: none;
+    background: rgb(133, 125, 125);
+    border-radius: 6px;
+
+}
+.center{
+    text-align: center;
+}
+td{
+    border-radius: 10px;
+    background: rgb(121, 118, 120);
+    color: rgb(228, 192, 220);
+}
+h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.imgen:hover{
+
+
+scale: 1.6;
+}
+div{
+    scale: 1;
+}
+@media (max-width:700px){
+    .titulo{
+        text-shadow: 0 0 5px rgb(152, 202, 16);
+        padding-left: none;
+        margin-right: none;
+        background: rgb(197, 7, 7);
+        border-radius: 6px;
+    
+    }
+    .center{
+        text-align: center;
+    }
+    td{
+        border-radius: 10px;
+        background: rgb(31, 241, 231);
+        color: rgb(163, 10, 130);
+    }
+    h2{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+    .imgen:hover{
+    table-layout: center;
+    scale: .8;   
+}
+div{
+    scale: .5;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+<form action="BD.php" method="post">
+    <!--<label for="text"></label>
+<input type="text" name="" id="">
+<br>
+<input type="number" min="8" max="100" name="numero" required>
+<input type="email" > <br>
+<em>
+<input type="password" placeholder="Contraseña">
+</em>
+<input type="range" min="5 " max="10">
+<input type="color" name="color">
+<input type="submit" value="enviar">-->
+
+
+<input type="text" placeholder="Ingresa texto" maxlength="20" id="nombre" required>
+<br>
+<textarea name="mensaje" id="mensaje " placeholder="Mensaje"></textarea>
+<br>
+<label for="Pais">Pais</label>
+<select name="Pais" id="Pais">
+    <option value="">----</option>
+    <option value="Mexico">Mexico</option>
+    <option value="FranciA">Francia</option>
+    <option value="Alemania">Alemania</option>
+</select>
+<input type="radio" name="genero" value="hombre" id="hombre"><label for="hombre">Hombre</label>
+<input type="radio" name="genero" value="Mujer" id="Mujer"><label for="Mujer">Mujer</label>
+<input type="radio" name="genero" value="otro" id="otro"><label for="otro">Otro</label>
+
+<br>
+<input type="checkbox" name="Terminos" id="Terminos" ><label for="Terminos">Aceptas los terminos?</label>
+<input type="checkbox" name="publicidad" id="publicidad" ><label for="publicidad">Aceptas publicidad?</label>
+<input type="submit" value="enviar">
+<!--Implementar un formulario consiste en varios pasos
+1-Escribir la interfaz de urusario
+2-Implementar el procesimiento del lado del servidor
+3-Configurar la interfaz de usuario para comunicarse con el servidor
+-->
+
+
+
+</form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.jiji{
+    background-color: red;
+    text-align: center;
+float: center;
+}
+.jojo{
+ background-color: green;  
+ text-align: center;
+ float: center;
+}
+h2{
+text-shadow: 0 0 7px rgb(250, 65, 96);
+}
+h1{
+    text-shadow: 0 0 7px rgb(238, 54, 84);
+    }
+    body{
+        background-color: blueviolet;
+    }

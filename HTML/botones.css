@@ -1,0 +1,40 @@
+body{
+    background: rgb(230, 221, 221);
+    font-family: 'Times New Roman';
+}
+div{
+    margin: 20px 0px;
+}
+.btn{
+    background: rgb(88, 4, 4);
+    color: rgb(214, 197, 197);
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 10px;
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 100px;
+}
+.small{
+    font-size: 15px;
+    padding: 15px 25px;
+}
+.extra-big{
+    font-size: 25px;
+    padding: 20px 30px;
+
+}
+.btn:hover{
+    opacity: .5;
+}
+.verde{
+    background: green;
+}
+.naranja{
+    background: orange;
+}
+.azul{
+background: blue;
+}
+
+

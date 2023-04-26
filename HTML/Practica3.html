@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cuestionario de evaluación de servicios</h1>
+    <fieldset>
+        <legend>Datos Generales</legend>
+        <form action="">
+            <label for="clave">Clave de su área (comenzando con A)</label>
+            <input type="text" name="clave" id="clave"><br>
+            <br>
+            <label for="nombre">Nombre del técnico evaluado :</label>        
+            <input type="text" name="nombre" id="nombre"><br>
+            <br>
+            <label>servicio a evaluar:</label>
+            <select name="evaluar" id="evaluar">
+                <option vaue="r">---</option>
+                <option value="resolucion">Resolución de problemas de software</option>
+            </select>
+            <br><br>
+            <label for="fecha">Fecha en que se proporciono el servicio</label>
+            <input type="date" name="fecha" id="fecha">
+            <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Satisfacción</legend>
+            <label>Satisfacción general con el servicio :</label>
+            <select name="ser" id="ser">
+                <option value="o">--</option>
+                <option value="selecciona">Seleccione</option>
+            </select>
+            <br><br>
+            <label>Su problema se resolvio :</label>
+            <select name="pro" id="pro">
+                <option value="s">--</option>
+                <option value="seleccio">Seleccione</option>
+            </select>
+            <br><br>
+            <label>Satisfacción general con el servicio :</label>
+            <select name="sa" id="sa">
+                <option value="o">--</option>
+                <option value="selecciona">Seleccione</option>
+            </select>
+            <br><br>
+            <label for="coment">Comentarios adicionales</label>
+            <br>
+            <textarea name="comentario" id="comentario" cols="30" rows="10">
+            </textarea>
+            <br><br>
+            <input type="reset" id="limpiar" value="limpiar">
+            <input type="button" value="enviar">
+            </fieldset>
+        </form>
+    </fieldset>
+
+</body>
+</html>

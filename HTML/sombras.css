@@ -1,0 +1,28 @@
+body{
+    background: rosybrown;
+}
+h1{
+    text-shadow: 2px 2px 5px red;
+} /* Efecto difuminado*/
+.profundidad{
+    color: antiquewhite;
+    text-shadow: 0 0 6px rgb(142, 202, 29);
+}
+.card{
+    width: 250px;
+    text-align: center;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.20);
+}
+header{
+    color: white;
+background: rgb(4, 226, 4);
+font-size: 35px;
+padding: 10px;
+
+}
+.contenedor{
+padding: 10px;
+}/* 
+1-arriba top
+2-
+*/

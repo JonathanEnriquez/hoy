@@ -1,0 +1,11 @@
+body{
+    /* 
+    background: url(./descarga.jfif);
+    background: no-repeat;
+    background: contain;
+    background-position: center center;
+    background-attachment:scroll;
+     */
+     background: url() no-repeat center center fixed;
+     background-size: 200px;
+}
